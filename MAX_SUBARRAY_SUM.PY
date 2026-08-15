@@ -8,3 +8,4 @@ def maxSubArray(nums):
         cursum=cursum+n
         maxsum=max(cursum,maxsum)
     return maxsum
+maxSubArray()
